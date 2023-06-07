@@ -1,0 +1,95 @@
+.main{
+    border: 2px solid black;
+    margin: 50px;
+    border-radius: 20px;
+}
+.navbar{
+    padding: 12px 13px;
+    width: 150px auto ;
+    border: 2px solid red;
+    height: 100%;
+    background-color: rgb(29, 2, 51);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+}
+.name{
+    color: gold;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 30px;
+}
+ul {
+    display: flex;
+    float: left;
+    margin-left: 10px;
+    justify-content: center;
+    padding-left: 10px;
+}
+ul li {
+    font-size: large;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    float: left;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 25px;
+    margin-right: 30px;
+    list-style: none;
+    padding-left: 10px;
+}
+.img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 30px;
+}
+.logo-div{
+    display: flex;
+    align-items: center;
+    
+}
+
+ul li:hover{
+    background-color:rgba(255, 255, 255, 0.178);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card{
+    color: white;
+    border:2px solid silver;
+    margin:15px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    border: 2px solid rgb(7, 3, 231);
+}
+.card-img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 6, 110);
+
+}
+.BTN{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.BTN:hover{
+    color: blue;
+    transition: 2s ease-in-out;
+    background-color: chartreuse;
+}
